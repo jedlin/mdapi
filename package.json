@@ -1,0 +1,20 @@
+{
+  "name": "mdapi",
+  "version": "0.1.0",
+  "description": "jobs database example api",
+  "main": "server.js",
+  "scripts": {
+    "start": "node job_server.js"
+  },
+  "dependencies": {
+    "express": "~4.9.x",
+	"body-parser": "1.x.x",
+	"pg": "4.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jedlin/mdapi"
+  },
+  "author": "Jim Edlin <jim.edlin@webmond.com>",
+  "license": "MIT"
+}
